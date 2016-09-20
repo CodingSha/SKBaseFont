@@ -33,6 +33,7 @@
     });
 }
 /** 全局整体强制改变所有字体 */
+/** 只有希望全部改变app整体字体的时候才能用此方法,否则建议使用其他两个 */
 - (void)SSPSetFont:(UIFont *)font{
     NSString *fontName = @"HiraginoSans-W3";
     /** 可以在此添加代码,以便排除某些个别不需要改变的字体 */
